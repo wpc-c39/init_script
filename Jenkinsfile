@@ -219,4 +219,4 @@ spec:
     CommitMessage = ''
     TAG = ''
   }
-}namespace: jenkins
+}
