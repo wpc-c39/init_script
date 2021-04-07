@@ -127,7 +127,7 @@ spec:
             }
           }
           steps {
-            git(branch: "${BRANCH}", credentialsId: 'github_auth', url: "${REPO_URL}")
+            git(branch: "${BRANCH}", credentialsId: '6288a569-be8a-42c4-ae43-be311340e053', url: "${REPO_URL}")
           }
         }
 
@@ -138,7 +138,7 @@ spec:
             }
           }
           steps {
-            git(url: "${REPO_URL}", branch: env.gitlabBranch, credentialsId: 'github_auth')
+            git(url: "${REPO_URL}", branch: env.gitlabBranch, credentialsId: '6288a569-be8a-42c4-ae43-be311340e053')
           }
         }
 
