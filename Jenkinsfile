@@ -94,6 +94,8 @@ spec:
   restartPolicy: "Never"
   #nodeSelector:
   #  build: "true"
+  imagePullSecrets: 
+    - name: default-secret
   securityContext: {}
   volumes:
     - hostPath:
